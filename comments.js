@@ -1,46 +1,6 @@
-// Create Web Server
-// 1. npm install express --save
-// 2. npm install body-parser --save
-// 3. npm install nodemon --save
-// 4. npm install mysql --save
-// 5. npm install ejs --save
-// 6. npm install express-session --save
-// 7. npm install connect-flash --save
-// 8. npm install passport --save
-// 9. npm install passport-local --save
-// 10. npm install passport-facebook --save
-// 11. npm install passport-kakao --save
-// 12. npm install passport-twitter --save
-// 13. npm install passport-google-oauth --save
-// 14. npm install passport-instagram --save
-// 15. npm install passport-naver --save
-// 16. npm install passport-jwt --save
-// 17. npm install jsonwebtoken --save
-// 18. npm install bcrypt --save
-// 19. npm install express-myconnection --save
-// 20. npm install express-mysql-session --save
-// 21. npm install multer --save
-// 22. npm install fs --save
-// 23. npm install path --save
-// 24. npm install moment --save
-// 25. npm install connect-multiparty --save
-// 26. npm install async --save
-// 27. npm install underscore --save
-// 28. npm install request --save
-// 29. npm install request-promise --save
-// 30. npm install cheerio --save
-// 31. npm install http-errors --save
-// 32. npm install compression --save
-// 33. npm install morgan --save
-// 34. npm install helmet --save
-// 35. npm install cookie-parser --save
-// 36. npm install express-validator --save
-// 37. npm install nodemailer --save
-// 38. npm install nodemailer-smtp-transport --save
-// 39. npm install nodemailer-sendgrid-transport --save
-// 40. npm install socket.io --save
-// 41. npm install socket.io-client --save
-// 42. npm install socket.io-redis --save
-// 43. npm install redis --save
-// 44. npm install connect-redis --save
-// 45. npm
+// Create web server
+const express = require('express');
+const app = express();
+
+// Create an array to store comments
+let comments
